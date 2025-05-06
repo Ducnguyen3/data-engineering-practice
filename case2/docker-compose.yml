@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  currency_ml:
+    build: .
+    container_name: currency_pipeline
+    volumes:
+      - ./data:/app/data
+      - ./model:/app/model
