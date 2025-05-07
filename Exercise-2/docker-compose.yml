@@ -1,0 +1,12 @@
+services:
+  run:
+    build: .             
+    volumes:
+      - .:/app
+    command: python3 main.py
+
+  test:
+    build: .             
+    volumes:
+      - .:/app
+    command: python3 -m pytest
