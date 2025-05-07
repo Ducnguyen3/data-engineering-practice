@@ -48,6 +48,7 @@
 - ✅ Toàn bộ xử lý thực hiện bằng hàm trong `pyspark.sql.functions`
 - ✅ Chạy thành công trên môi trường Docker với `docker-compose`
 - ✅ Có thể xuất kết quả ra file CSV nếu cần (`.write.csv(...)`)
+![image](https://github.com/user-attachments/assets/64c3dbf9-2d54-49de-b61b-2575c3281c6a)
 
 ---
 
